@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: petclinic
-          image: vhmds/petclinic
+          image: vhmds/petclinic:8b0a4af
           imagePullPolicy: Always
           resources:
             requests:
